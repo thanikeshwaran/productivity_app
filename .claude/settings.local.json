@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 90 flutter test tool/gen_icon_test.dart)",
+      "Bash(flutter test *)",
+      "Bash(pkill -f gen_icon_test)",
+      "Bash(pkill -f flutter_tester)",
+      "Bash(python3 -c \"import PIL; print\\('PIL available:', PIL.__version__\\)\")"
+    ]
+  }
+}
